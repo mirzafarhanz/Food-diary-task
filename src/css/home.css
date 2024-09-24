@@ -1,0 +1,124 @@
+.hero_section {
+    background-image: url('../image/hero_section.png'); 
+    background-size: cover; 
+    background-position: center; 
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+    align-items: start;
+    padding: 44px 0px 134px 70px;
+    text-align: left;
+    color: white; 
+  }
+  .hero_section h2{
+    font-size: 60px;
+    line-height: 73.14px;
+    text-align: center;
+    font-weight: 400 ;
+  }
+  .menu_home {
+    margin-bottom: 80px ;
+  }
+  .recipe-list {
+   
+    display: grid;
+    width: 1045px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+}
+.recipe-list > *:nth-child(n+7) {
+  display: none;
+}
+.recipe_name{
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-between;
+  padding:5px;
+}
+.recipe_name h3{
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.29px;
+
+}
+.rating{
+  background-color: #84BD00;
+ 
+
+}
+.tags{
+  
+  margin-top:-50px;
+  font-family: 'montez';
+  font-size: 50px;
+  
+  color:#F5F5F5 !important;
+  font-weight: 400;
+}
+  .recipe-card {
+   
+    
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .recipe-card img {
+    max-width: 100%;
+    height: auto;
+    margin-top:-15px ;
+  }
+  .recipe-card h3{
+    color:black;
+  }
+  .menu_home{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .menu_home ul{
+    width: min-content;
+    list-style: none ;
+    display: flex;
+   justify-content: center;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-top: 1px solid #D9D9D9 ;
+   
+   border-bottom: 1px solid #D9D9D9 ;
+  
+    
+  }
+  li a{
+    color:#84BD00;
+    margin-right:30px ;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.28px;
+   
+  }
+  .details{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 86px;
+    padding-right: 86px;
+  }
+  .details img{
+    width: 500px;
+    height: 500px;
+  }
+  .details div{
+    width: 500px;
+    background-color: #8B888836;
+    border-radius: 20px ;
+    padding:24px;
+  }
+  .details div h1{
+    font-size:18px;
+    font-weight: 600;
+  }
